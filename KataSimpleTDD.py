@@ -1,4 +1,4 @@
 class EstadisticaArreglo:
     def obtenerLongitud(self, cadenaString):
-
-        return -1
+        if cadenaString == '':
+            return 0
