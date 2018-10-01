@@ -3,6 +3,7 @@ import sys
 
 class EstadisticaArreglo:
     def obtenerLongitud(self, cadenaString):
+
         arraySplit = cadenaString.split(',')
         if cadenaString == '':
             return [0, None, None]
