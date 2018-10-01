@@ -1,8 +1,10 @@
+import sys
+
+
 class EstadisticaArreglo:
     def obtenerLongitud(self, cadenaString):
         if cadenaString == '':
-            return [0]
-        elif len(cadenaString) > 1:
-            return [len(cadenaString) - 1]
+            return [0, None]
         else:
-            return [int( cadenaString.split(','))]
+            arraySplit = cadenaString.split(',')
+            return [len(arraySplit)]
