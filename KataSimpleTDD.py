@@ -1,6 +1,5 @@
 import sys
 
-
 class EstadisticaArreglo:
     def obtenerLongitud(self, cadenaString):
         if cadenaString == '':
