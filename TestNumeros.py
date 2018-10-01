@@ -1,7 +1,8 @@
 from unittest import TestCase
 from KataSimpleTDD import EstadisticaArreglo
 
+
 class TestLongitud(TestCase):
 
-       def testElementosMinMax(self):
-            self.assertEqual(EstadisticaArreglo().obtenerLongitud("1,2,3,4"), [4, 1], "cadena 4 elementos")
+    def testElementosMinMax(self):
+        self.assertEqual(EstadisticaArreglo().obtenerLongitud(""), [0, None, None], "cadena 4 elementos")
