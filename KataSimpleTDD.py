@@ -5,6 +5,6 @@ class EstadisticaArreglo:
     def obtenerLongitud(self, cadenaString):
         arraySplit = cadenaString.split(',')
         if cadenaString == '':
-            return [0, None]
+            return [0, None, None]
         else:
             return [len(arraySplit), int(min(arraySplit))]
