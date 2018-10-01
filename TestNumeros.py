@@ -4,4 +4,4 @@ from KataSimpleTDD import EstadisticaArreglo
 class TestLongitud(TestCase):
 
        def testElementosMinMax(self):
-            self.assertEqual(EstadisticaArreglo().obtenerLongitud(""), [0, None], "cadena vacia")
+            self.assertEqual(EstadisticaArreglo().obtenerLongitud("1"), [1, 1], "cadena vacia")
