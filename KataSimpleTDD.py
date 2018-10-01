@@ -6,6 +6,6 @@ class EstadisticaArreglo:
 
         arraySplit = cadenaString.split(',')
         if cadenaString == '':
-            return [0, None, None]
+            return [0, None, None, None]
         else:
-            return [len(arraySplit), int(min(arraySplit)),int(max(arraySplit))]
+            return [len(arraySplit), int(min(arraySplit)), int(max(arraySplit))]
