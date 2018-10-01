@@ -7,4 +7,4 @@ class EstadisticaArreglo:
             return [0, None]
         else:
             arraySplit = cadenaString.split(',')
-            return [len(arraySplit)]
+            return [len(arraySplit),int(cadenaString)]
