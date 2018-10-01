@@ -5,4 +5,4 @@ class EstadisticaArreglo:
         elif len(cadenaString) > 1:
             return [len(cadenaString) - 1]
         else:
-            return [int(cadenaString)]
+            return [int( cadenaString.split(','))]
