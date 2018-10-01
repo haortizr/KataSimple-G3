@@ -7,4 +7,4 @@ class EstadisticaArreglo:
         if cadenaString == '':
             return [0, None, None]
         else:
-            return [len(arraySplit), int(min(arraySplit)),len(arraySplit)]
+            return [len(arraySplit), int(min(arraySplit)),int(max(arraySplit))]
